@@ -1,0 +1,15 @@
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/bin/Debug/net5.0/MagicYearCalculator.deps.json
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/bin/Debug/net5.0/MagicYearCalculator.runtimeconfig.json
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/bin/Debug/net5.0/MagicYearCalculator.runtimeconfig.dev.json
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/bin/Debug/net5.0/MagicYearCalculator.dll
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/bin/Debug/net5.0/ref/MagicYearCalculator.dll
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/bin/Debug/net5.0/MagicYearCalculator.pdb
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/obj/Debug/net5.0/MagicYearCalculator.csproj.AssemblyReference.cache
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/obj/Debug/net5.0/MagicYearCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/obj/Debug/net5.0/MagicYearCalculator.AssemblyInfoInputs.cache
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/obj/Debug/net5.0/MagicYearCalculator.AssemblyInfo.cs
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/obj/Debug/net5.0/MagicYearCalculator.csproj.CoreCompileInputs.cache
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/obj/Debug/net5.0/MagicYearCalculator.dll
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/obj/Debug/net5.0/ref/MagicYearCalculator.dll
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/obj/Debug/net5.0/MagicYearCalculator.pdb
+/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator/obj/Debug/net5.0/MagicYearCalculator.genruntimeconfig.cache

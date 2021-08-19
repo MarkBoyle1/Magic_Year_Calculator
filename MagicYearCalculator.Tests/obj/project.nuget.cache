@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6ePVgiNYVGMhdeSfgRhkvA/9R/JHYrP3D+77uq2lOdxYkYEhENFQzpjx9lwMSiYr5PoQPDZPvPux5RI25mc8cw==",
+  "dgSpecHash": "voi/KmECg5I9h4Wt9+YMrwiy0bdicwxR5k4d4dQmyz9AS3BaqzsU5G/KiUT422gFHog5BvGfU8NUVds2HVAjIQ==",
   "success": true,
   "projectFilePath": "/Users/Mark.Boyle/Desktop/c#/katas/MagicYearCalculator/MagicYearCalculator.Tests/MagicYearCalculator.Tests.csproj",
   "expectedPackageFiles": [
