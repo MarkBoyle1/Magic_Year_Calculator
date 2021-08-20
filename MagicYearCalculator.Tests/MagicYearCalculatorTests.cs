@@ -4,30 +4,30 @@ using MagicYearCalculator;
 
 namespace MagicYearCalculator.Tests
 {
-    public class UnitTest1
+    public class MagicYearCalculatorTests
     {
         [Fact]
-        public void Test1()
+        public void given_inputsProvided_when_ProcessDetails_then_return_expectedMagicYearDTO()
         {
 
             MagicYearCalculator calculator = new MagicYearCalculator();
             
             string firstName = "Mark";
             string surname = "Boyle";
-            string annualSalary = "65000";
-            string startYear = "2021";
+            int annualSalary = 65000;
+            int startYear = 2021;
 
-            MagicYearDTO output = calculator.ProcessDetails(firstName, surname, annualSalary, startYear);
+            MagicYearDTO calculatorOutput = calculator.ProcessDetails(firstName, surname, annualSalary, startYear);
 
             string name = "Mark Boyle";
-            string monthlySalary = "5416";
-            string magicYear = "2086";
+            int monthlySalary = 5417;
+            int magicYear = 2086;
 
             MagicYearDTO expectedMagicYearDTO = new MagicYearDTO(name, monthlySalary, magicYear);
 
-            Assert.Equal(expectedMagicYearDTO.name, output.name);
-            Assert.Equal(expectedMagicYearDTO.monthlySalary, output.monthlySalary);
-            Assert.Equal(expectedMagicYearDTO.magicYear, output.magicYear);
+            Assert.Equal(expectedMagicYearDTO.name, calculatorOutput.name);
+            Assert.Equal(expectedMagicYearDTO.monthlySalary, calculatorOutput.monthlySalary);
+            Assert.Equal(expectedMagicYearDTO.magicYear, calculatorOutput.magicYear);
 
         }
     }

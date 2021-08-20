@@ -6,8 +6,8 @@ namespace MagicYearCalculator
     {
         public string firstName;
         public string surname;
-        public string annualSalary;
-        public string startYear;
+        public int annualSalary;
+        public int startYear;
 
         public Input()
         {
@@ -29,7 +29,7 @@ namespace MagicYearCalculator
             return answer;
         }
 
-        private string CollectNumberInput(string inputCategory)
+        private int CollectNumberInput(string inputCategory)
         {
             Console.WriteLine($"Please enter your {inputCategory}:");
             int number;
@@ -39,7 +39,7 @@ namespace MagicYearCalculator
                 Console.WriteLine("Please enter a valid number:");
                 answer = Console.ReadLine();
             }
-            return answer;
+            return Convert.ToInt32(answer);
         }
     }
 }

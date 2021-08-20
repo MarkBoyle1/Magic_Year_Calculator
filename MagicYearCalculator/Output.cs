@@ -4,7 +4,7 @@ namespace MagicYearCalculator
 {
     public class Output
     {
-        public void DisplayOnConsole(string name, string monthlySalary, string magicYear)
+        public void DisplayOnConsole(string name, int monthlySalary, int magicYear)
         {
             Console.WriteLine("Your magic details are:");
             Console.WriteLine("Name: " + name);

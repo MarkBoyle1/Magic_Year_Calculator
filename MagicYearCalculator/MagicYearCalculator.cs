@@ -6,11 +6,11 @@ namespace MagicYearCalculator
 {
     public class MagicYearCalculator
     {
-        public MagicYearDTO ProcessDetails(string firstName, string surname, string annualSalary, string startYear)
+        public MagicYearDTO ProcessDetails(string firstName, string surname, int annualSalary, int startYear)
         {
             string name = formatName(firstName, surname);
-            string monthlySalary = calculateMonthlySalary(annualSalary);
-            string magicYear = calculateMagicYear(startYear);
+            int monthlySalary = calculateMonthlySalary(annualSalary);
+            int magicYear = calculateMagicYear(startYear);
             return new MagicYearDTO(name, monthlySalary, magicYear);
         }
 
@@ -20,15 +20,15 @@ namespace MagicYearCalculator
             return name;
         }
 
-        private string calculateMonthlySalary(string annualSalary)
+        private int calculateMonthlySalary(int annualSalary)
         {
-            string monthlySalary = (Convert.ToInt32(annualSalary) / 12).ToString();
-            return monthlySalary;
+            decimal monthlySalary = Math.Round((Convert.ToDecimal(annualSalary) / 12m), MidpointRounding.AwayFromZero);
+            return Convert.ToInt32(monthlySalary);
         }
 
-        private string calculateMagicYear(string startYear)
+        private int calculateMagicYear(int startYear)
         {
-            string magicYear = (Convert.ToInt32(startYear) + 65).ToString();
+            int magicYear = startYear + 65;
             return magicYear;
         }
     }
